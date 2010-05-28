@@ -1,0 +1,10 @@
+category: Gnome
+requires: libclutter1.0_0 libgcc1 libGL1 libglib2.0_0 libgstreamer0.10_0
+external-source: clutter-gst1.0
+sdesc: "OpenGL-based animated GStreamer library (runtime)"
+ldesc: "Clutter is an open source software library for creating fast, 
+visually rich and animated graphical user interfaces.
+
+Clutter uses OpenGL for rendering but with an API which hides the 
+underlying GL complexity from the developer. The Clutter API is intended 
+to be easy to use, efficient and flexible."
