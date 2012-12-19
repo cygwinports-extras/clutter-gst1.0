@@ -1,0 +1,10 @@
+--- origsrc/clutter-gst-1.6.0/clutter-gst/clutter-gst-video-sink.c	2012-04-27 06:11:08.000000000 -0500
++++ src/clutter-gst-1.6.0/clutter-gst/clutter-gst-video-sink.c	2012-12-18 20:58:25.013967700 -0600
+@@ -63,6 +63,7 @@
+ #ifdef HAVE_HW_DECODER_SUPPORT
+ #define GST_USE_UNSTABLE_API 1
+ #include <gst/video/gstsurfacebuffer.h>
++#include <GL/gl.h>
+ #endif
+ 
+ #if defined (CLUTTER_WINDOWING_X11)
