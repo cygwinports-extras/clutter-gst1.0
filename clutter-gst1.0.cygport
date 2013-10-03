@@ -19,9 +19,10 @@ PATCH_URI="
 	1.6.0-includedir.patch
 "
 
-PKG_NAMES="lib${NAME}_0 lib${NAME}-devel girepository-ClutterGst1.0 gstreamer0.10-plugins-clutter"
+PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc girepository-ClutterGst1.0 gstreamer0.10-plugins-clutter"
 girepository_ClutterGst1_0_CONTENTS="usr/*/gir*/ClutterGst-1.0.*"
 libclutter_gst1_0_0_REQUIRES="gstreamer0.10-plugins-good gstreamer0.10-plugins-bad-free"
 libclutter_gst1_0_0_CONTENTS="usr/bin/*-1.0-0.dll usr/share/doc/"
-libclutter_gst1_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+libclutter_gst1_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+libclutter_gst1_0_doc_CONTENTS="usr/share/gtk-doc/"
 gstreamer0_10_plugins_clutter_CONTENTS="usr/lib/gstreamer-0.10/*"
