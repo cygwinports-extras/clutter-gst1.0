@@ -3,7 +3,7 @@ inherit gnome2
 
 NAME="clutter-gst1.0"
 VERSION=1.6.0
-RELEASE=3
+RELEASE=4
 CATEGORY="Libs"
 SUMMARY="OpenGL-based animated GStreamer library"
 DESCRIPTION="Clutter is an open source software library for creating fast,
